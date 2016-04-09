@@ -1,0 +1,37 @@
+.nav-wrapper {
+	background: #69717E;
+}
+
+.col {
+	margin-top: 100px;
+
+}
+
+/*About*/
+
+h3 {
+ text-align: center;
+}
+
+
+
+#about {
+	margin-top: 200px;
+}
+
+
+#col-num2 {
+	position: relative;
+	left: 30%;
+	margin-top: 10px;
+}
+
+#leapord1 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.parallax-container {
+	height: 250px;
+}
