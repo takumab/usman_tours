@@ -7,6 +7,10 @@
 
 }
 
+ul li a {
+	text-transform: uppercase;
+}
+
 /*About*/
 
 h3 {
@@ -21,14 +25,13 @@ h3 {
 
 
 #col-num2 {
-	position: relative;
-	left: 30%;
-	margin-top: 10px;
+	float: left;
+	
 }
 
 #leapord1 {
 	position: relative;
-	width: 200px;
+	width: 300px;
 	height: 200px;
 }
 
