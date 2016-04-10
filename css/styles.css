@@ -1,26 +1,47 @@
 .nav-wrapper {
-	background: #69717E;
+	background: #009393;
+
 }
 
+.brand-logo {
+	font-family: 'Lobster', cursive;
+	margin-left: 20px;
+	text-shadow: 5px 5px 1px #000;
+	color: #465776;
+}
+
+.brand-logo a {
+		color: #465776;
+
+}
 .col {
-	margin-top: 100px;
+	margin-top: 30px;
 
 }
 
 ul li a {
 	text-transform: uppercase;
+	color: #F0EDBB;
+	font-family: 'Exo 2', sans-serif;
 }
 
-/*About*/
+hr {
+	color: #F0EDBB;
+	width: 284px;
+	margin-right: 33px;
 
-h3 {
+}
+
+/*Tours*/
+
+#abt {
  text-align: center;
 }
 
 
 
-#about {
-	margin-top: 200px;
+#tours {
+	margin-top: 100px;
 }
 
 
@@ -35,6 +56,37 @@ h3 {
 	height: 200px;
 }
 
+#trees {
+	position: relative;
+	width: 300px;
+	height: 200px;
+}
+
+#beach2 {
+	position: relative;
+	width: 300px;
+	height: 200px;
+}
+
 .parallax-container {
 	height: 250px;
+}
+
+
+h1, 
+h3, 
+h4,
+h5, 
+p {
+	font-family: 'Exo 2', sans-serif;
+}
+
+#sites {
+	margin-top: 0px;
+}
+
+/* About */
+
+#us {
+	text-align: center;
 }

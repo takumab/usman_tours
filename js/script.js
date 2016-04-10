@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$(".button-collapse").sideNav();
 
 	//Slider
-	$(".slider").slider();
+	$(".slider").slider({indicators: false});
 
 	//Parallax
 	$(".parallax").parallax();

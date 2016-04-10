@@ -5,6 +5,7 @@
 <head>
 	<!--Import Google Fonts -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href='https://fonts.googleapis.com/css?family=Lobster|Exo+2|Pacifico' rel='stylesheet' type='text/css'>
 	<!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -17,19 +18,19 @@
 	<div class="navbar-fixed">
 		<nav>
 			<div class="nav-wrapper">
-				<a href="#" class="brand-logo">Gambia Tours</a>
+				<a href="#" class="brand-logo">Gambia</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-				<ul class="right hide-on-med-down">
+				<ul class="right hide-on-med-and-down">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Tours</a></li>
+					<li><a href="#tours">Tours</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact us</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact Us</a></li>
 					<li><a href="#">Tours</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact us</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -42,21 +43,21 @@
 				<li>
 					<img src="images/beach3.jpeg">
 					<div class="caption center-align">
-						<h3>Beautiful Coast</h3>
+						<h4>Beautiful Coast</h4>
 						<h5 class="light grey-text text-lighten-3">Welcome!</h5>
 					</div>
 				</li>
 				<li>
 					<img src="images/beach.jpg">
 					<div class="caption right-align">
-						<h3>Beautiful Beaches</h3>
-						<h5 class="light grey-text text-lighten-3">Come here now!</h5>
+						<h4>Beautiful Beaches</h4>
+						<h5 class="light grey-text text-lighten-3">Here is where you want to be!</h5>
 					</div>
 				</li>
 				<li>
 					<img src="images/beach2.jpeg">
 					<div class="caption left-align">
-						<h3>Beautiful Beaches</h3>
+						<h4>Beautiful Everything!</h4>
 						<h5 class="light grey-text text-lighten-3">Wish you were here!</h5>
 					</div>
 				</li>
@@ -69,7 +70,7 @@
 			<div class="row">
 				<div class="col s12 m4 l4">
 					<img src="images/beach4.jpg">
-					<h4>Fun in the Sun</h4>
+					<h3>Fun in the Sun</h3><hr/>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -77,7 +78,7 @@
 				</div>
 				<div class="col s12 m4 l4">
 					<img src="images/trees.jpg">
-					<h4>Trails</h4>
+					<h3>Trails</h3><hr/>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -85,7 +86,7 @@
 				</div>
 				<div class="col s12 m4 l4">
 					<img src="images/leapord.jpg">
-					<h4>Wilderness</h4>
+					<h3>Wilderness</h3><hr/>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -101,15 +102,16 @@
 		</div>
 	</div>
 
-	<!-- About Section -->
+	<!-- Tours Section -->
 
-	<section id="about">
+	<section id="tours">
 		<header>
-			<h3>About Us</h3>
+			<h3 id="abt">Tours</h3>
 		</header>
-			<div class="container">
+			<div class="container" id="sites">
 				<div class="row">
-					<div class="col s12 m6 l6">
+					<div class="col s12 m8 l8">
+						<h5>Safari</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -117,11 +119,11 @@
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
+					<img src="images/trees.jpg" class="col s12 m4 l4 circle responsive-img" id="trees">
 				</div>
 
 				<div class="row">
-					<img src="images/leapord.jpg" class="col s12 m4 l4 responsive-img" id="leapord1">
-					<div class="col s12 m8 l6" id="col-num2">
+					<div class="col s12 m8 l8" id="col-num2">
 						<h5>Wildlife</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -130,9 +132,41 @@
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
+					<img src="images/leapord.jpg" class="col s12 m4 l4 circle responsive-img" id="leapord1">
+				</div>
+				<div class="row">
+					<div class="col s12 m8 l8" id="col-num2">
+						<h5>Coast Line</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<img src="images/beach2.jpeg" class="col s12 m4 l4 circle responsive-img" id="beach2">
+
 				</div>
 			</div>
 		
+	</section>
+
+
+	<div class="parallax-container">
+		<div class="parallax">
+			<img src="https://images.unsplash.com/photo-1460050079817-97eaa821add7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=800ac41b581451a1e6a233cfd1e5e84e">
+		</div>
+	</div>
+
+
+	<section id="about">
+		<header>
+			<h3 id="us">About Us</h3>
+		</header>
+
+
+
+
 	</section>
 
 	
