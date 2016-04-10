@@ -12,8 +12,9 @@
 
 .brand-logo a {
 		color: #465776;
-
 }
+
+
 .col {
 	margin-top: 30px;
 
@@ -89,4 +90,26 @@ p {
 
 #us {
 	text-align: center;
+}
+
+
+
+/* Contact */
+
+#email-me {
+	text-align: center;
+}
+
+
+
+/* Footer */
+
+footer.page-footer {
+	background: #009393;
+}
+
+h5#gamb {
+	font-family: 'Lobster', cursive;
+	text-shadow: 5px 5px 1px #000;
+
 }
