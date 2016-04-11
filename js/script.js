@@ -7,4 +7,11 @@ $(document).ready(function(){
 	//Parallax
 	$(".parallax").parallax();
 
+	var greeting = function(name){
+	console.log("Great to see you again," + " " + name);
+	}
+
+	greeting("Takuma");
+
 });
+
